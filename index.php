@@ -1,4 +1,4 @@
-
+echo 'Hello World!';
 <?php
   
   //answer 2
@@ -17,11 +17,11 @@ print_r($year);
 
 if ($date - $tar > 0) {
   echo "<br>";
-   echo "the future";
+   echo "the future"."<br>";
 } elseif ($date - $tar< 0) {
-    echo "the past";
+    echo "the past"."<br>";
 } else {
-    echo "Oops";
+    echo "Oops"."<br>";
 }
 //answer 4
 $posi = $date;
@@ -37,7 +37,7 @@ while (($lastPos = strpos($posi, $searchh, $lastPos))!== false) {
 
 foreach ($positions as $value) {
     
-    echo "<br />".$value ;
+    echo " ".$value ;
 }
 //Answer 5
 echo "<br/>".count($date);
