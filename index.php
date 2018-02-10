@@ -51,7 +51,7 @@ echo "<br>".ord($date);
 
 //Answer 8
 
-$last2_digit = substr($date, 8, 9);
+$last2_digit = substr($date, -2);
 echo "<br />".$last2_digit;
 
 //Answer 9
